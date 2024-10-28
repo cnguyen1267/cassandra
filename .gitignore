@@ -1,0 +1,27 @@
+/stock_analyzer/.env
+/venv
+*.env
+
+# Database
+/stock_analyzer/db.sqlite3
+
+# Environment variables
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+*/*.pyc
+*/*/*.pyc
+
+# Django migrations (optional, team dependent)
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Virtual environment (if it's in this directory)
+venv/
+env/
+
+# Local development settings
+local_settings.py

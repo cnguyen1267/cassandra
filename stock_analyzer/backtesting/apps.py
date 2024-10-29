@@ -1,5 +1,6 @@
 from django.apps import AppConfig
 
-class StockDataConfig(AppConfig):
+
+class BacktestingConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'stock_data'
+    name = 'backtesting'
